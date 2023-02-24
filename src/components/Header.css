@@ -1,0 +1,44 @@
+#headerflex{
+    display: flex;
+    height: 100vh;
+}
+#headerleft{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #171718;
+    color: gray;
+    align-items: center;
+}
+#headerright{
+    width: 83%;
+    padding-top: 250px;
+    background: #5981af;
+    color: #fff;
+}
+#headerrighttitle{
+    font-size: 40px;
+}
+#name{
+    font-size: 70px;
+}
+#namenext{
+    font-size: 40px;
+}
+#headerdesc{
+    font-size: 30px;
+}
+#headericon{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    font-size: 25px;
+    color: inherit;
+    padding-bottom: 7px;
+    text-align: left;
+}
+a:hover{
+    color: white;
+}
