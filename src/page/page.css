@@ -1,0 +1,68 @@
+/*Title 부분*/
+#Title{
+    width: 210px;
+    position: fixed;
+    padding-top: 140px;
+    padding-left: 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#Title h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+#Title li{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+.Circle{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(110, 110, 110);
+    display: inline-block;
+    margin-right: 5px;
+}
+/*Introduction 부분*/
+#Introduction{
+    padding-top: 280px;
+    padding-left: 10%;
+    padding-bottom:400px;
+}
+#info{
+    text-align: center;
+}
+#infotitle{
+    font-size: 50px;
+}
+#infoname{
+    font-size: 85px;
+}
+#namenext{
+    font-size: 50px;
+}
+#infodesc{
+    font-size: 30px;
+}
+/*Aboutme 부분*/
+#Aboutme{
+    padding-left: 10%;
+}
+
+/*Share 부분*/
+#Share{
+    padding-left: 10%;
+}
+
+/*Project 부분*/
+#Project{
+    padding-left: 10%;
+}
+
+/*FAQ 부분*/
+#FAQ{
+    padding-left: 10%;
+}

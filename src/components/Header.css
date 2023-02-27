@@ -1,44 +1,24 @@
 #headerflex{
     display: flex;
-    height: 100vh;
-}
-#headerleft{
-    width: 17%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background: #171718;
-    color: gray;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: "맑은 고딕",sans-serif;
+    font-weight: 900;
+    position: fixed;
+    width: 100%;
+    height: 106px;
     align-items: center;
+    z-index: 1;
 }
-#headerright{
-    width: 83%;
-    padding-top: 250px;
-    background: #5981af;
-    color: #fff;
+#headerflex span{
+    margin-right: 25px;
 }
-#headerrighttitle{
-    font-size: 40px;
-}
-#name{
-    font-size: 70px;
-}
-#namenext{
-    font-size: 40px;
-}
-#headerdesc{
-    font-size: 30px;
-}
-#headericon{
-    display: flex;
-    flex-direction: column;
-}
-a{
+#headerflex a{
+    margin-left: 25px;
     font-size: 25px;
     color: inherit;
-    padding-bottom: 7px;
-    text-align: left;
 }
-a:hover{
-    color: white;
+#headerpadding{
+    padding-left: 155px;
+    padding-right: 125px;
 }
