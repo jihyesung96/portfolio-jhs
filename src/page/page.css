@@ -51,7 +51,97 @@
 #Aboutme{
     padding-left: 10%;
 }
-
+.status{
+    display: flex;
+}
+.statusli{
+    margin-bottom: 10px;
+}
+.status-bar-name{
+    width: 150px;
+    line-height: 24px;
+}
+.status-bar{
+    height: 24px;
+    background: #ccc;
+    width: 70%;
+    border-radius: 20px;
+}
+.status-bar-percent{
+    display: block;
+    padding: 0 10px;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    color: #fff;
+    border-radius: 20px;
+    
+}
+.status-Javascript{
+    width: 70%;
+    background: rgb(246, 226, 5);
+    animation: status70 2s 1 ;
+}
+.status-REACT{
+    width: 70%;
+    background: #b852cc;
+    animation: status70 2s 1 ;
+}
+.status-Typescript{
+    width: 50%;
+    background: lightcoral;
+    animation: status50 2s 1;
+}
+.status-HTML{
+    width: 80%;
+    background: lightpink;
+    animation: status80 2s 1;
+}
+.status-CSS3{
+    width: 70%;
+    background: lightgreen;
+    animation: status70 2s 1;
+}
+.status-SCSS{
+    width: 70%;
+    background: lightskyblue;
+    animation: status70 2s 1;
+}
+.status-PHP{
+    width: 60%;
+    background: lightsteelblue;
+    animation: status60 2s 1;
+}
+.status-MYSQL{
+    width: 70%;
+    background: lightslategray;
+    animation: status70 2s 1;
+}
+.status-git{
+    width: 40%;
+    background: lightsalmon;
+    animation: status40 2s 1;
+}
+@keyframes status40{
+    0% {width: 0;}
+    100%{width: 40%;}
+}
+@keyframes status50{
+    0% {width: 0;}
+    100%{width: 50%;}
+}
+@keyframes status60{
+    0% {width: 0;}
+    100%{width: 60%;}
+}
+@keyframes status70{
+    0% {width: 0;}
+    100%{width: 70%;}
+}
+@keyframes status80{
+    0% {width: 0;}
+    100%{width: 80%;}
+}
 /*Share 부분*/
 #Share{
     padding-left: 10%;

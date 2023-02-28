@@ -21,93 +21,75 @@ const Aboutme = () => {
             <div>
                 <h2>Skill</h2>
                 <ul>
-                    <li data-v-8abf10a2="">
-                        <li data-v-7fb90c05="" class="status-bar-item clfix" data-v-8abf10a2="">
-                            <div data-v-7fb90c05="" class="status-bar-item-name">Javascript</div>
-                            <div data-v-7fb90c05="" class="status-bar-item-ability">
-                                <div data-v-7fb90c05="" class="percent percent-60 percent-color-0">
-                                    <span data-v-7fb90c05="" class="status-bar-item-percent">60%</span>
-                                </div>
+                    <li class="statusli">
+                        <li class="status" >
+                            <div  class="status-bar-name">Javascript</div>
+                            <div  class="status-bar">
+                                <span class="status-bar-percent status-Javascript">70%</span>
                             </div>
                         </li>
                     </li>
-                    <li data-v-8abf10a2="">
-                        <li data-v-7fb90c05="" class="status-bar-item clfix" data-v-8abf10a2="">
-                            <div data-v-7fb90c05="" class="status-bar-item-name">REACT</div>
-                            <div data-v-7fb90c05="" class="status-bar-item-ability">
-                                <div data-v-7fb90c05="" class="percent percent-70 percent-color-0">
-                                    <span data-v-7fb90c05="" class="status-bar-item-percent">70%</span>
-                                </div>
+                    <li class="statusli">
+                        <li class="status" >
+                            <div  class="status-bar-name">REACT</div>
+                            <div  class="status-bar">
+                                <span class="status-bar-percent status-REACT">70%</span>
                             </div>
                         </li>
                     </li>
-                    <li data-v-8abf10a2="">
-                        <li data-v-7fb90c05="" class="status-bar-item clfix" data-v-8abf10a2="">
-                            <div data-v-7fb90c05="" class="status-bar-item-name">Typescript</div>
-                            <div data-v-7fb90c05="" class="status-bar-item-ability">
-                                <div data-v-7fb90c05="" class="percent percent-50 percent-color-0">
-                                    <span data-v-7fb90c05="" class="status-bar-item-percent">50%</span>
-                                </div>
+                    <li class="statusli">
+                        <li class="status" >
+                            <div  class="status-bar-name">Typescript</div>
+                            <div  class="status-bar">
+                                <span class="status-bar-percent status-Typescript">50%</span>
                             </div>
                         </li>
                     </li>
-                    <li data-v-8abf10a2="">
-                        <li data-v-7fb90c05="" class="status-bar-item clfix" data-v-8abf10a2="">
-                            <div data-v-7fb90c05="" class="status-bar-item-name">HTML</div>
-                            <div data-v-7fb90c05="" class="status-bar-item-ability">
-                                <div data-v-7fb90c05="" class="percent percent-80 percent-color-0">
-                                    <span data-v-7fb90c05="" class="status-bar-item-percent">80%</span>
-                                </div>
+                    <li class="statusli">
+                        <li class="status" >
+                            <div  class="status-bar-name">HTML</div>
+                            <div  class="status-bar">
+                                <span class="status-bar-percent status-HTML">80%</span>
                             </div>
                         </li>
                     </li>
-                    <li data-v-8abf10a2="">
-                        <li data-v-7fb90c05="" class="status-bar-item clfix" data-v-8abf10a2="">
-                            <div data-v-7fb90c05="" class="status-bar-item-name">CSS3</div>
-                            <div data-v-7fb90c05="" class="status-bar-item-ability">
-                                <div data-v-7fb90c05="" class="percent percent-70 percent-color-0">
-                                    <span data-v-7fb90c05="" class="status-bar-item-percent">70%</span>
-                                </div>
+                    <li class="statusli">
+                        <li class="status" >
+                            <div  class="status-bar-name">CSS3</div>
+                            <div  class="status-bar">
+                                <span class="status-bar-percent status-CSS3">70%</span>
                             </div>
                         </li>
                     </li>
-                    <li data-v-8abf10a2="">
-                        <li data-v-7fb90c05="" class="status-bar-item clfix" data-v-8abf10a2="">
-                            <div data-v-7fb90c05="" class="status-bar-item-name">SCSS</div>
-                            <div data-v-7fb90c05="" class="status-bar-item-ability">
-                                <div data-v-7fb90c05="" class="percent percent-70 percent-color-0">
-                                    <span data-v-7fb90c05="" class="status-bar-item-percent">70%</span>
-                                </div>
+                    <li class="statusli">
+                        <li class="status" >
+                            <div  class="status-bar-name">SCSS</div>
+                            <div  class="status-bar">
+                                <span class="status-bar-percent status-SCSS">70%</span>
                             </div>
                         </li>
                     </li>
-                    <li data-v-8abf10a2="">
-                        <li data-v-7fb90c05="" class="status-bar-item clfix" data-v-8abf10a2="">
-                            <div data-v-7fb90c05="" class="status-bar-item-name">PHP</div>
-                            <div data-v-7fb90c05="" class="status-bar-item-ability">
-                                <div data-v-7fb90c05="" class="percent percent-60 percent-color-0">
-                                    <span data-v-7fb90c05="" class="status-bar-item-percent">60%</span>
-                                </div>
+                    <li class="statusli">
+                        <li class="status" >
+                            <div  class="status-bar-name">PHP</div>
+                            <div  class="status-bar">
+                                <span class="status-bar-percent status-PHP">60%</span>
                             </div>
                         </li>
                     </li>
-                    <li data-v-8abf10a2="">
-                        <li data-v-7fb90c05="" class="status-bar-item clfix" data-v-8abf10a2="">
-                            <div data-v-7fb90c05="" class="status-bar-item-name">MYSQL</div>
-                            <div data-v-7fb90c05="" class="status-bar-item-ability">
-                                <div data-v-7fb90c05="" class="percent percent-70 percent-color-0">
-                                    <span data-v-7fb90c05="" class="status-bar-item-percent">70%</span>
-                                </div>
+                    <li class="statusli">
+                        <li class="status" >
+                            <div  class="status-bar-name">MYSQL</div>
+                            <div  class="status-bar">
+                                <span class="status-bar-percent status-MYSQL">70%</span>
                             </div>
                         </li>
                     </li>
-                    <li data-v-8abf10a2="">
-                        <li data-v-7fb90c05="" class="status-bar-item clfix" data-v-8abf10a2="">
-                            <div data-v-7fb90c05="" class="status-bar-item-name">git</div>
-                            <div data-v-7fb90c05="" class="status-bar-item-ability">
-                                <div data-v-7fb90c05="" class="percent percent-40 percent-color-0">
-                                    <span data-v-7fb90c05="" class="status-bar-item-percent">40%</span>
-                                </div>
+                    <li class="statusli">
+                        <li class="status" >
+                            <div  class="status-bar-name">git</div>
+                            <div  class="status-bar">
+                                <span class="status-bar-percent status-git">40%</span>
                             </div>
                         </li>
                     </li>
