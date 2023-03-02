@@ -4,22 +4,22 @@ import "./page.css";
 const Aboutme = () => {
     return (
         <div id='Aboutme'>
-            <div>
-                <h1>ABOUT ME</h1>
+            <div id='Contentborder'>
+                <h1 id='Contenttitle'>ABOUT ME</h1>
             </div>
             <div>
-                <span>대학교</span>
-                <h2>경성대학교</h2>
-                <p>2015년 - 2023년 메카트로닉스공학과 학사 졸업</p>
+                <span id='Contenttitle2'>대학교</span>
+                <h2 id='Contenttitle3'>경성대학교</h2>
+                <p id='Contenttitle4'>2015년 - 2023년 메카트로닉스공학과 학사 졸업</p>
             </div>
             <div>
-                <span>교육</span>
-                <h2>그린컴퓨터아카데미</h2>
-                <p>2022/10/4 ~ 2023/03/23</p>
+                <span id='Contenttitle2'>교육</span>
+                <h2 id='Contenttitle3'>그린컴퓨터아카데미</h2>
+                <p id='Contenttitle4'>2022/10/4 ~ 2023/03/23</p>
                 <p>UI개발, 프론트엔드 개발 실무, 전반적인 백엔드 기초</p>
             </div>
             <div>
-                <h2>Skill</h2>
+                <h2 id='Contenttitle3'>MY Skill</h2>
                 <ul>
                     <li class="statusli">
                         <li class="status" >

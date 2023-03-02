@@ -4,6 +4,9 @@ import "./page.css";
 const Project = () => {
     return (
         <div id='Project'>
+            <div id='Contentborder'>
+                <h1 id='Contenttitle'>Project</h1>
+            </div>
             <div>
                 <span>팀 프로젝트</span>
                 <h2><a href='#'>Javascript를 이용한 야구 게임</a></h2>

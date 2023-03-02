@@ -3,7 +3,7 @@
     width: 210px;
     position: fixed;
     padding-top: 140px;
-    padding-left: 30px;
+    padding-left: 50px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -49,7 +49,27 @@
 }
 /*Aboutme 부분*/
 #Aboutme{
-    padding-left: 10%;
+    padding-left: 15%;
+}
+#Contentborder{
+    border-bottom: 6.5px solid rgb(248, 205, 7); 
+    width: 80%;
+    margin-bottom: 60px;
+}
+#Contenttitle{
+    font-family: "NEXON Lv2 Gothic Bold";
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+#Contenttitle2{
+    font-size: 24px;
+}
+#Contenttitle3{
+    margin-top: 20px;
+    font-size: 40px;
+}
+#Contenttitle4{
+    font-size: 18px;
 }
 .status{
     display: flex;
@@ -144,15 +164,15 @@
 }
 /*Share 부분*/
 #Share{
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 /*Project 부분*/
 #Project{
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 /*FAQ 부분*/
 #FAQ{
-    padding-left: 10%;
+    padding-left: 15%;
 }

@@ -4,6 +4,9 @@ import "./page.css";
 const FAQ = () => {
     return (
         <div id='FAQ'>
+            <div id='Contentborder'>
+                <h1 id='Contenttitle'>FAQ</h1>
+            </div>
             <div>
                 <span>FAQ</span>
                 <div data-v-8abf10a2="" class="article-content">
