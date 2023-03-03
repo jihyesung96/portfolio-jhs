@@ -54,7 +54,7 @@
 #Contentborder{
     border-bottom: 6.5px solid rgb(248, 205, 7); 
     width: 80%;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 #Contenttitle{
     font-family: "NEXON Lv2 Gothic Bold";
@@ -65,14 +65,23 @@
     font-size: 24px;
 }
 #Contenttitle3{
-    margin-top: 20px;
     font-size: 40px;
 }
 #Contenttitle4{
     font-size: 18px;
 }
+#school{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.myskill{
+    margin-bottom: 40px;
+}
 .status{
     display: flex;
+    height: 30px;
 }
 .statusli{
     margin-bottom: 10px;
@@ -80,12 +89,20 @@
 .status-bar-name{
     width: 150px;
     line-height: 24px;
+    font-weight: 700;
+    display: flex;
 }
+.status-bar-name img{
+    width: 40px;
+    height: 30px;
+    padding-right: 10px;
+}
+
 .status-bar{
     height: 24px;
     background: #ccc;
     width: 70%;
-    border-radius: 20px;
+    border-radius: 7px;
 }
 .status-bar-percent{
     display: block;
@@ -94,53 +111,53 @@
     line-height: 24px;
     text-align: right;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 7px;
     
 }
 .status-Javascript{
     width: 70%;
     background: rgb(246, 226, 5);
-    animation: status70 2s 1 ;
+    animation: status70 5s 1 ;
 }
 .status-REACT{
     width: 70%;
-    background: #b852cc;
-    animation: status70 2s 1 ;
+    background: lightskyblue;
+    animation: status70 5s 1 ;
 }
 .status-Typescript{
     width: 50%;
-    background: lightcoral;
-    animation: status50 2s 1;
+    background: rgb(25, 128, 193);
+    animation: status50 5s 1;
 }
 .status-HTML{
     width: 80%;
-    background: lightpink;
-    animation: status80 2s 1;
+    background:rgb(248, 112, 58);
+    animation: status80 5s 1;
 }
 .status-CSS3{
     width: 70%;
-    background: lightgreen;
-    animation: status70 2s 1;
+    background: rgb(65, 150, 202);
+    animation: status70 5s 1;
 }
 .status-SCSS{
     width: 70%;
-    background: lightskyblue;
-    animation: status70 2s 1;
+    background:  lightpink;
+    animation: status70 5s 1;
 }
 .status-PHP{
     width: 60%;
-    background: lightsteelblue;
-    animation: status60 2s 1;
+    background: lightslategray;
+    animation: status60 5s 1;
 }
 .status-MYSQL{
     width: 70%;
-    background: lightslategray;
-    animation: status70 2s 1;
+    background: lightsteelblue;
+    animation: status70 5s 1;
 }
 .status-git{
     width: 40%;
     background: lightsalmon;
-    animation: status40 2s 1;
+    animation: status40 5s 1;
 }
 @keyframes status40{
     0% {width: 0;}
@@ -171,7 +188,23 @@
 #Project{
     padding-left: 15%;
 }
-
+.projectspan{
+    display: block;
+    margin-bottom: 30px;
+}
+.projectimg{
+    width: 40%;
+    margin-bottom: 26px;
+}
+.projectdesc{
+    margin-bottom: 26px;
+}
+.projectday{
+    margin-bottom: 10px;
+}
+.projectskill{
+    margin-bottom: 80px;
+}
 /*FAQ 부분*/
 #FAQ{
     padding-left: 15%;

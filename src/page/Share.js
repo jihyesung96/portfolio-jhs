@@ -7,19 +7,19 @@ const Share = () => {
                 <h1 id='Contenttitle'>Share</h1>
             </div>
             <div>
-                <span>블로그</span>
-                <h2><a href='#'>지식저장소</a></h2>
-                <p>정리</p>
+                <span id='Contenttitle2'>블로그</span>
+                <h2 id='Contenttitle3'><a href='#'>지식저장소</a></h2>
+                <p id='Contenttitle4'>정리</p>
             </div>
             <div>
-                <span>블로그</span>
-                <h2><a href='#'>노션</a></h2>
-                <p>정리</p>
+                <span id='Contenttitle2'>블로그</span>
+                <h2 id='Contenttitle3'><a href='#'>노션</a></h2>
+                <p id='Contenttitle4'>정리</p>
             </div>
             <div>
-                <span>코드</span>
-                <h2><a href='#'>git</a></h2>
-                <p>정리</p>
+                <span id='Contenttitle2'>코드</span>
+                <h2 id='Contenttitle3'><a href='#'>git</a></h2>
+                <p id='Contenttitle4'>정리</p>
             </div>
         </div>
     );
