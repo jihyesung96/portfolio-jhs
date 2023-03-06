@@ -1,17 +1,23 @@
 import React from 'react';
 import "./page.css";
 
+function Introduction(){
+    window.scrollTo(0,0)
+}
+function About(){
+    window.scrollTo(0,900)
+}
 const Title = () => {
     return (
         <div id='Title'>
             <div>
-                <h1>Introduction</h1>
+                <h1 onClick={Introduction}>Introduction</h1>
                 <ul>
                     <li><div class="Circle"></div>소개</li>
                 </ul>
             </div>
             <div>
-                <h1>About me</h1>
+                <h1 onClick={About}>About me</h1>
                 <ul>
                     <li><div class="Circle"></div>경성대학교</li>
                     <li><div class="Circle"></div>교육</li>

@@ -1,3 +1,4 @@
+
 /*Title 부분*/
 #Title{
     width: 210px;
@@ -47,6 +48,9 @@
 #infodesc{
     font-size: 30px;
 }
+#h1span{
+    color: rgb(248, 205, 7);
+}
 /*Aboutme 부분*/
 #Aboutme{
     padding-left: 15%;
@@ -66,6 +70,7 @@
 }
 #Contenttitle3{
     font-size: 40px;
+    text-decoration: underline;
 }
 #Contenttitle4{
     font-size: 18px;
@@ -183,10 +188,25 @@
 #Share{
     padding-left: 15%;
 }
+.Sharetitle{
+    display: block;
+    margin-bottom: 24px;
+}
+.Sharelink{
+    margin-bottom: 30px;
+}
 
+.Sharedesc{
+    margin-bottom: 20px;
+}
 /*Project 부분*/
 #Project{
     padding-left: 15%;
+}
+#projectview{
+    display: flex;
+    column-gap: 50px;
+    margin-bottom: 30px;
 }
 .projectspan{
     display: block;
@@ -194,7 +214,12 @@
 }
 .projectimg{
     width: 40%;
-    margin-bottom: 26px;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+    cursor: pointer;
+}
+.projectimg:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .projectdesc{
     margin-bottom: 26px;
@@ -203,9 +228,104 @@
     margin-bottom: 10px;
 }
 .projectskill{
+    margin-bottom: 10px;
+}
+#btnspan{
+    display: flex;
     margin-bottom: 80px;
+}
+#alive{
+    display: block;
+    width: calc(100% / 3.5);
+    margin-right: 3px;
+    background-color:  #ccc;
+    color: #2C3333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    height: 2.5rem;
+    width: 150px;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#alive:hover{
+    background:  rgb(255, 218, 55);
+    color: #fff;
+}
+#moreview{
+    text-align: end;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#moreviewspan{
+    display: block;
+    width: 25%;
+    height: 32px;
+    font-size: 24px;
+    overflow: hidden;
+    cursor: pointer;
+}
+#startp{
+    display: block;
+}
+#endp{
+    display: none;
+}
+#moreviewspan:hover #endp{
+    display: block;
+    animation: all 2s 1;
+    background:  rgb(255, 218, 55);
+}
+#moreviewspan:hover #startp{
+    display: none;
+}
+@keyframes all{
+    0% {width: 0;}
+    100%{width: 100%;}
+}
+#Content{
+    padding-left: 15%;
 }
 /*FAQ 부분*/
 #FAQ{
     padding-left: 15%;
+}
+#FAQdiv{
+    padding: 0 50px 50px;
+    width: 80%;
+}
+
+#FAQflex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+#FAQflex span{
+    cursor: pointer;
+}
+.faqp{
+    padding-left: 16px;
+    padding-right: 36px;
+    color: #333;
+    font-size: 16px;
+    line-height: 65px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.faqanswer{
+    padding: 40px 40px 45px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.86;
+    box-sizing: border-box;
+    border-color: transparent;
+    background-color: rgb(236, 235, 235);;
 }
