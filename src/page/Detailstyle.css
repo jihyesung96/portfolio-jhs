@@ -1,0 +1,63 @@
+#detail{
+    padding-left: 15%;
+    padding-top: 106px;
+    background-color: rgb(245, 245, 245);
+}
+#dtimgtitle{
+    border-bottom: 6.5px solid rgb(248, 205, 7);
+    width: 80%;
+    margin-bottom: 70px;
+    font-size: 34px;
+    font-weight: 500;
+}
+#dtimg{
+    width: 50%;
+    margin-left: 290px;
+    margin-bottom: 50px;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+}
+#dtdiv{
+    padding: 0 50px 50px;
+    width: 80%;
+    border: 2px solid rgb(248, 205, 7);
+}
+#dtskills{
+    padding-bottom: 50px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+#dtflex{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+#dtflex span{
+    cursor: pointer;
+}
+#dtflex img{
+    width: 15px;
+    height: 10px;
+}
+.dtp{
+    padding-left: 16px;
+    padding-right: 36px;
+    color: #333;
+    font-size: 16px;
+    line-height: 65px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-weight: 500;
+}
+.dtanswer{
+    padding: 40px 40px 45px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.86;
+    box-sizing: border-box;
+    border-color: transparent;
+    background-color: rgb(236, 235, 235);;
+}

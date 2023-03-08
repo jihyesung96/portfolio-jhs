@@ -9,6 +9,7 @@
     height: 106px;
     align-items: center;
     z-index: 1;
+    background-color: rgb(245, 245, 245);
 }
 #headerflex span{
     margin-right: 25px;
@@ -21,4 +22,8 @@
 #headerpadding{
     padding-left: 215px;
     padding-right: 125px;
+}
+#headerpadding a:hover{
+    color:  rgb(248, 205, 7);
+    transition: .2s;
 }

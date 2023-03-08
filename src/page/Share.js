@@ -13,7 +13,7 @@ const Share = () => {
             </div>
             <div>
                 <span id='Contenttitle2'  className='Sharetitle'>📌블로그</span>
-                <h2 id='Contenttitle3' className='Sharelink'><a href='#'>노션</a></h2>
+                <h2 id='Contenttitle3' className='Sharelink'><a href='https://www.notion.so/STUDY-45aa50e4f0874c188ab1a3f40e414b17'>노션</a></h2>
                 <p id='Contenttitle4' className='Sharedesc'>📖 Javascript+React+Typescript+Pyhton 내용 정리</p>
                 <p id='Contenttitle4' className='Sharedesc'>📖 부족한 내용 링크로 저장후 보충 공부</p>
                 <p id='Contenttitle4' className='Sharedesc'>📖 앞으로 대부분의 포스팅 해당 블로그에 올릴 예정</p>
