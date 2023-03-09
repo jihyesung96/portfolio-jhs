@@ -108,6 +108,16 @@
 #Contenttitle3{
     font-size: 40px;
     text-decoration: underline;
+    text-underline-offset: 3.5px;
+}
+#Contenttilte3:hover{
+    background: linear-gradient(to right, transparent 50%, rgb(255, 218, 55) 50%) 0px 0px / 200%;
+    text-underline-offset: 3.5px;
+    transition: all 0.25s ease 0s;
+}
+@keyframes backcolor{
+    0% {width: 0;}
+    100%{width: 100%;}
 }
 #Contenttitle4{
     font-size: 18px;
@@ -143,7 +153,7 @@
 
 .status-bar{
     height: 24px;
-    background: #ccc;
+    background: rgb(245, 245, 245);
     width: 70%;
     border-radius: 7px;
 }
@@ -152,8 +162,8 @@
     padding: 0 10px;
     height: 24px;
     line-height: 24px;
-    text-align: right;
-    color: #fff;
+    color: black ;
+    font-weight: 500;
     border-radius: 7px;
     
 }
@@ -163,9 +173,7 @@
     animation: status70 5s 1 ;
 }
 .status-REACT{
-    width: 70%;
-    background: lightskyblue;
-    animation: status70 5s 1 ;
+
 }
 .status-Typescript{
     width: 50%;
@@ -215,8 +223,10 @@
     100%{width: 60%;}
 }
 @keyframes status70{
-    0% {width: 0;}
-    100%{width: 70%;}
+    0% {width: 0;
+    opacity: 0;}
+    100%{width: 70%;
+    opacity: 1;}
 }
 @keyframes status80{
     0% {width: 0;}
@@ -246,7 +256,6 @@
 #projectview{
     display: flex;
     column-gap: 50px;
-    margin-bottom: 30px;
 }
 .projectspan{
     display: block;
@@ -260,6 +269,9 @@
 .projectimg:hover{
     transform: scale(1.1);
     transition: 0.5s;
+}
+.pdesc{
+    width: 35%;
 }
 .projectdesc{
     margin-bottom: 26px;
@@ -278,10 +290,9 @@
     display: block;
     width: calc(100% / 3.5);
     margin-right: 3px;
-    background-color:  #ccc;
-    color: #2C3333;
+    background-color: rgb(255, 218, 55);
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     height: 2.5rem;
     width: 150px;
@@ -292,8 +303,8 @@
     cursor: pointer;
 }
 #alive:hover{
-    background:  rgb(255, 218, 55);
-    color: #fff;
+    background: #0e2c53;
+    color: rgb(255, 218, 55);
 }
 #moreview{
     text-align: end;
@@ -381,4 +392,58 @@
     padding-top: 50px;
     padding-left: 13%;
     background-color: rgb(245, 245, 245);
+}
+.contentdiv{
+    margin-bottom: 220px;
+}
+.contact-box p{
+    display: inline;
+}
+.titeng{
+    padding-bottom: 10px;
+}
+#contact{
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+.content-box{
+    position: relative;
+    line-height: 1.4;
+    text-align: center;
+    width: 80%;
+}
+.content-box h2.tit {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 45px;
+    position: relative;
+    color: #1876f2;
+}
+.contact-box p{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+
+}
+.contacts-box{
+    margin-left: 400px;
+    display: block;
+    width: 40%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(248, 205, 7);
+    border-radius: 100px;
+    transition: all .3s ease;
+    font-size: 18px;
+    font-weight: 500;
+} 
+.topbox{
+    margin-bottom: 20px;
+}
+.contacts-box:hover{
+    cursor: pointer;
+    background-color: #0e2c53;
+    color: rgb(248, 205, 7);
+}
+.contact-box #p-tag{
+    margin-bottom: 50px;
 }

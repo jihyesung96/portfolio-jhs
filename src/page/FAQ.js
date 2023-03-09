@@ -38,7 +38,7 @@ const FAQ = () => {
                                     <span ><img onClick={onChange} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state ? <div class="faqanswer">💬 안녕하세요</div>: null}
+                                {!state ? <div class="faqanswer">💬 안녕하세요! 풀스택을 희망하는 지혜성입니다.</div>: null}
                             </div>
                         </li>
                         <li>

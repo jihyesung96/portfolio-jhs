@@ -16,6 +16,10 @@
     margin-bottom: 50px;
     filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
 }
+#dtpad{
+    padding-left: 5%;
+    padding-right: 120px;
+}
 #dtdiv{
     padding: 0 50px 50px;
     width: 80%;

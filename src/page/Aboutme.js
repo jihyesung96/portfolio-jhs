@@ -35,7 +35,7 @@ const Aboutme = () => {
                         <li class="status" >
                             <div  class="status-bar-name"><img src='/images/logo512.png'alt=''/> <p>REACT</p> </div>
                             <div  class="status-bar">
-                                <span class="status-bar-percent status-REACT">70%</span>
+                                <span class="status-bar-percent status-REACT">컴포넌트를 이용해서 재사용 가능하고, 여러 리액트 라이브러리(HOOK함수,)를 사용가능하며, 논리적으로 파일을 나누어서 개발 진행을 할 수 있습니다.</span>
                             </div>
                         </li>
                     </li>
