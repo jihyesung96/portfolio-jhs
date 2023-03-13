@@ -20,7 +20,7 @@ const Share = () => {
             </div>
             <div>
                 <span id='Contenttitle2'  className='Sharetitle'>📌나만의 코드 저장소</span>
-                <h2 id='Contenttitle3' className='Sharelink'><a href='#'>GITHUB</a></h2>
+                <h2 id='Contenttitle3' className='Sharelink'><a href='https://github.com/jihyesung96'>GITHUB</a></h2>
                 <p id='Contenttitle4' className='Sharedesc'>📓 팀 프로젝트 및 개인 프로젝트 코드 저장 및 공유</p>
                 <p id='Contenttitle4' className='Sharedesc'>📓 다양한 언어 예제 연습 코드 저장 및 공유</p>
                 <p id='Contenttitle4' className='Sharedesc'>📓 앞으로 새로운 언어를 이용한 프로젝트 코드를 올릴 예정</p>

@@ -5,19 +5,15 @@ import { faPen } from "@fortawesome/free-solid-svg-icons";
 import React from 'react';
 import "./Header.css";
 
-const Headers = () => {
+const Headers = ({scrollToTop}) => {
     return (
         <div id='headerflex'>
            <div id='headerpadding'>
-                <span>About me</span>
-                <span>Project</span>
-                <span>Share</span>
-                <span>Q&A</span>
-                <span>CONTACT</span>
+                <div id='headerlogo' onClick={scrollToTop}>DEVELOPER JHS</div>
            </div>
            <div id='headerpadding'>
-                <a href='#'><FontAwesomeIcon icon={faGithub} /></a>
-                <a href='#'><FontAwesomeIcon icon={faPen} /></a>
+                <a href='https://github.com/jihyesung96'><FontAwesomeIcon icon={faGithub} /></a>
+                <a href='https://aboard-teller-7ff.notion.site/STUDY-45aa50e4f0874c188ab1a3f40e414b17'><FontAwesomeIcon icon={faPen} /></a>
                 <a href='#'><FontAwesomeIcon icon={faBlog} /></a>
            </div>
         </div>

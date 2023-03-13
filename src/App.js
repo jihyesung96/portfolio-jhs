@@ -14,6 +14,12 @@ function App() {
     console.log(window.scrollY)
   }
   const targetRef = useRef(null);  
+  const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+  }
   const handleScroll = () => {
     console.log("scrolling");
     console.log(window.scrollY)
@@ -48,7 +54,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Headers/>
+      <Headers scrollToTop={scrollToTop}/>
       <Routes>
         <Route path='/' element={<Main scrollnum={scrollnum}/>}/>
         <Route path='/detailJava' element={<Detailjava/>}/>

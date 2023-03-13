@@ -80,7 +80,7 @@ const Project = () => {
                         <p id='Contenttitle4' className='projectday'>👍Javascript를 통하여 많은 내장 함수들을 배우게 된 프로젝트</p>
                         <p id='Contenttitle4' className='projectday'>👍</p>
                         <div id='btnspan'>
-                            <a href='#' id='alive'>VIEW LIVE</a>
+                            <a href='http://wlgptjd1009.dothome.co.kr/Javascript_project/baseball.html' id='alive'>VIEW LIVE</a>
                             <a href='https://github.com/jihyesung96/java_project' id='alive'>VIEW GITHUB</a>
                         </div>
                     </div>
