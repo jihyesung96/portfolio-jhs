@@ -74,11 +74,10 @@ const Project = () => {
                     <img className='projectimg' src='/images/javascript_ball.png'alt=''/>
                     <div className='pdesc'>
                         <h2 className='projectdesc'>
-                        <a href='#' id='Contenttitle3' >Javascript를 이용한 야구 게임</a>
+                        <a href='http://wlgptjd1009.dothome.co.kr/Javascript_project/baseball.html' id='Contenttitle3' >Javascript를 이용한 야구 게임</a>
                         </h2>
                         <p id='Contenttitle4' className='projectday'>👍2022/11/11 ~ 2022/11/25</p>
                         <p id='Contenttitle4' className='projectday'>👍Javascript를 통하여 많은 내장 함수들을 배우게 된 프로젝트</p>
-                        <p id='Contenttitle4' className='projectday'>👍</p>
                         <div id='btnspan'>
                             <a href='http://wlgptjd1009.dothome.co.kr/Javascript_project/baseball.html' id='alive'>VIEW LIVE</a>
                             <a href='https://github.com/jihyesung96/java_project' id='alive'>VIEW GITHUB</a>
@@ -219,7 +218,7 @@ const Project = () => {
                         <p id='Contenttitle4' className='projectday'>👍React를 사용하여 렌더링과 상태관리 컴포넌트 등 다양한 기능을 배우게 된 프로젝트</p>
                         <div id='btnspan'>
                             <a href='#' id='alive'>VIEW LIVE</a>
-                            <a href='#' id='alive'>VIEW GITHUB</a>
+                            <a href='#' id='alive'>VIEW GITHUB</a>                      
                         </div>
                     </div>
                 </div>
@@ -333,9 +332,9 @@ const Project = () => {
                     </ul>
                 </div>
             </div>
-            <div id='moreview'>
+            {/* <div id='moreview'>
                 <span id='moreviewspan'><p id='startp'>Click ! 👌</p><p id='endp'>더 많은 프로젝트 보러가기 👌</p></span>
-            </div>
+            </div> */}
         </div>
     );
 };

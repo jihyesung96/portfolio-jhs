@@ -13,8 +13,8 @@ const Main = ({scrollnum}) => {
             <Title scrollnum={scrollnum}/>
             <Introduction />
             <Aboutme />
-            <Share/>
             <Project />
+            <Share/>
             <FAQ />
             <Contact />
             

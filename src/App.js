@@ -1,19 +1,12 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Headers from './components/Headers';
 import Main from './page/Main';
-import Detailjava from './page/project/Detailjava';
-import Detailphp from './page/project/Detailphp';
-import Detailreact from './page/project/Detailreact';
 
 function App() {
   const [scrollnum, setScrollNum ] = useState(0)
-  function scroll (e){
-    console.log(window.scrollY)
-  }
-  const targetRef = useRef(null);  
   const scrollToTop = () => {
     window.scrollTo({
         top: 0,
@@ -34,11 +27,11 @@ function App() {
       setScrollNum(4);
     }else if(window.scrollY >= 1300 && window.scrollY < 1545){
       setScrollNum(5);
-    }else if(window.scrollY >= 1545 && window.scrollY < 2045){
+    }else if(window.scrollY >= 1545 && window.scrollY < 2300){
       setScrollNum(6);
-    }else if(window.scrollY >= 2045 && window.scrollY < 2200){
+    }else if(window.scrollY >= 2300 && window.scrollY < 2460){
       setScrollNum(7);
-    }else if(window.scrollY >= 2200 && window.scrollY < 2400){
+    }else if(window.scrollY >= 2460 && window.scrollY < 2800){
       setScrollNum(8);
     }
   };
@@ -57,9 +50,6 @@ function App() {
       <Headers scrollToTop={scrollToTop}/>
       <Routes>
         <Route path='/' element={<Main scrollnum={scrollnum}/>}/>
-        <Route path='/detailJava' element={<Detailjava/>}/>
-        <Route path='/detailPhp' element={<Detailphp/>}/>
-        <Route path='/detailReact' element={<Detailreact/>}/>
       </Routes>
       <Footer />
     </div>

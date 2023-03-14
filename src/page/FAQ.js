@@ -91,7 +91,10 @@ const FAQ = () => {
                                     <span ><img onClick={onChange4} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange4}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state4 ? <div class="faqanswer">💬 최근에 팀프로젝트를 하면서 REACT를 사용
+                                {!state4 ? <div class="faqanswer">💬 최근에 React를 이용한 팀프로젝트를 하였습니다. 처음 사용하는 React라서 상태관리와 리렌더링에 대해서 생소하였기 때문에 어려움을 겪었습니다.
+                                처음에는 아는 지식을 동원하여 여러번 반복하여 상태관리와 리렌더링을 하였으나 React관련 도서와 React 공식 사이트에서 관련된 지식을 검색해보고 찾아보았더니 알지 못했던 라이브러리를
+                                알게되었습니다. 그로 인해 상태관리와 리렌더링을 간단한 방식으로 구현 되었고 짧은 기간안에 프로젝트를 완성 할수 있었습니다. 이사례를 들었던 이유는 코드는 다양한 방식으로 만들수 있기 때문에
+                                항상 배움의 자세를 유지하자 라는 자세를 얻었기 때문입니다.
                                 </div>: null}
                             </div>
                         </li>

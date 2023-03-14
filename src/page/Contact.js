@@ -12,9 +12,9 @@ const Contact = () => {
                     <div id="p-tag">
                         <p>새로운 도전을 하며 성장하고 싶은 개발자입니다 !</p>
                     </div>
-                        <div className='contacts-box topbox'>
+                        <a href="mailto:wlgptjd1009@naver.com"><div className='contacts-box topbox'>
                             <span>Contact me on E-mail💌</span><br/>
-                        </div>
+                        </div></a>
                         <div className='contacts-box'>
                             <span>Thank you ! 🙋‍♂️</span>
                         </div>

@@ -2,10 +2,17 @@ import React from 'react';
 import "./page.css";
 
 function Introduction(){
-    window.scrollTo(0,0)
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
+    
 }
 function About(){
-    window.scrollTo(0,900)
+    window.scrollTo({
+        top: 900,
+        behavior: 'smooth'
+    })
 }
 const Title = ({scrollnum}) => {
 
@@ -26,34 +33,33 @@ const Title = ({scrollnum}) => {
                 </ul>
             </div>
             <div>
-                <h1 style={scrollnum===7 ? { scale:'1.1' }: { scale:'1' } }>Share</h1>
+                <h1 style={scrollnum===7 ? { scale:'1.1' }: { scale:'1' } }>Project</h1>
                 <ul>
-                    <li id='Titleulflex' style={scrollnum===8 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===8 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Blog</li>
-                    <li id='Titleulflex' style={scrollnum===9 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===9 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Notion</li>
-                    <li id='Titleulflex' style={scrollnum===10 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===10 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Github</li>
+                    <li id='Titleulflex' style={scrollnum===8 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===8 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Javascript-Project</li>
+                    <li id='Titleulflex' style={scrollnum===9 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===9 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Php-Project</li>
+                    <li id='Titleulflex' style={scrollnum===10 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===10 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>React-Project</li>
+                    <li id='Titleulflex' style={scrollnum===11 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===11 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>React-Portfolio</li>
                 </ul>
             </div>
             <div>
-                <h1 style={scrollnum===11 ? { scale:'1.1' }: { scale:'1' } }>Project</h1>
+                <h1 style={scrollnum===12 ? { scale:'1.1' }: { scale:'1' } }>Share</h1>
                 <ul>
-                    <li id='Titleulflex' style={scrollnum===12 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===12 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Javascript-Project</li>
-                    <li id='Titleulflex' style={scrollnum===13 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===13 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Php-Project</li>
-                    <li id='Titleulflex' style={scrollnum===14 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===14 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>React-Project</li>
-                    <li id='Titleulflex' style={scrollnum===15 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===15 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>React-Portfolio</li>
+                    <li id='Titleulflex' style={scrollnum===13 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===13 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Blog</li>
+                    <li id='Titleulflex' style={scrollnum===14 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===14 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Notion</li>
+                    <li id='Titleulflex' style={scrollnum===15 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===15 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Github</li>
                 </ul>
             </div>
             <div>
-                <h1 style={scrollnum===16 ? { scale:'1.1' }: { scale:'1' } }>Q&A</h1>
+                <h1 style={scrollnum===16 ? { scale:'1.1' }: { scale:'1' } }>FAQ</h1>
                 <ul>
-                    <li id='Titleulflex' style={scrollnum===17 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===17 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>질문1</li>
-                    <li id='Titleulflex' style={scrollnum===18 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===18 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>질문2</li>
-                    <li id='Titleulflex' style={scrollnum===19 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===19 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>질문3</li>
-                    <li id='Titleulflex' style={scrollnum===20 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===20 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>질문3</li>
+                    <li id='Titleulflex' style={scrollnum===17 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===17 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Answer</li>
                 </ul>
             </div>
-            <div>
-                <h1 style={scrollnum===21 ? { scale:'1.1' }: { scale:'1' } }>CONTACT</h1>
+            <div id='titlema'>
+                <h1 style={scrollnum===18 ? { scale:'1.1' }: { scale:'1' } }>CONTACT</h1>
             </div>
+            <a id='titlea' href="mailto:wlgptjd1009@naver.com">wlgptjd1009@naver.com</a>
+            <p id='titlep'>Last update: 2023/03/14</p>
         </div>
     );
 };
