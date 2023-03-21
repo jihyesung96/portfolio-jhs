@@ -14,7 +14,7 @@ const Headers = ({scrollToTop}) => {
            <div id='headerpadding'>
                 <a href='https://github.com/jihyesung96'><FontAwesomeIcon icon={faGithub} /></a>
                 <a href='https://aboard-teller-7ff.notion.site/STUDY-45aa50e4f0874c188ab1a3f40e414b17'><FontAwesomeIcon icon={faPen} /></a>
-                <a href='#'><FontAwesomeIcon icon={faBlog} /></a>
+                <a href='https://blog.naver.com/wlgptjd1009'><FontAwesomeIcon icon={faBlog} /></a>
            </div>
         </div>
     );

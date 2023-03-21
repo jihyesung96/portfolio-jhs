@@ -131,12 +131,12 @@ const Project = () => {
                 <div id='projectview'>
                     <div className='pdesc'>
                         <h2 className='projectdesc'>
-                            <a href='#' id='Contenttitle3' >PHP,MYSQL을 이용한 AW뮤직</a>
+                            <a href='http://wlgptjd1009.dothome.co.kr/AW/index.php' id='Contenttitle3' >PHP,MYSQL을 이용한 AW뮤직</a>
                         </h2>
                         <p id='Contenttitle4' className='projectday'>👍2022/12/19 ~ 2023/01/03</p>
                         <p id='Contenttitle4' className='projectday'>👍php 와 mysql을 통해 페이지이동과 데이터관리를 배워게 된 프로젝트</p>
                         <div id='btnspan'>
-                            <a href='#' id='alive'>VIEW LIVE</a>
+                            <a href='http://wlgptjd1009.dothome.co.kr/AW/index.php' id='alive'>VIEW LIVE</a>
                             <a href='https://github.com/jihyesung96/php_project_awmusic' id='alive'>VIEW GITHUB</a>
                         </div>
                     </div>
@@ -212,13 +212,13 @@ const Project = () => {
                     <img className='projectimg' src='/images/react_site.png'alt=''/>
                     <div className='pdesc'>
                         <h2 className='projectdesc'>
-                            <a href='#' id='Contenttitle3' >REACT를 이용한 AW카페</a>
+                            <a href='https://web-react-jhs2-nx562olf7x0c48.sel3.cloudtype.app/' id='Contenttitle3' >REACT를 이용한 AW카페</a>
                         </h2>
                         <p id='Contenttitle4' className='projectday'>👍2022/01/31 ~ 2023/02/14</p>
                         <p id='Contenttitle4' className='projectday'>👍React를 사용하여 렌더링과 상태관리 컴포넌트 등 다양한 기능을 배우게 된 프로젝트</p>
                         <div id='btnspan'>
-                            <a href='#' id='alive'>VIEW LIVE</a>
-                            <a href='#' id='alive'>VIEW GITHUB</a>                      
+                            <a href='https://web-react-jhs2-nx562olf7x0c48.sel3.cloudtype.app/' id='alive'>VIEW LIVE</a>
+                            <a href='https://github.com/jihyesung96/react-jhs' id='alive'>VIEW GITHUB</a>                      
                         </div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@ import Project from './Project';
 import Share from './Share';
 import Title from './Title';
 
-const Main = ({scrollnum}) => {
+const Main = ({scrollnum ,scrollToTop}) => {
     return (
         <div>
             <Title scrollnum={scrollnum}/>
@@ -16,7 +16,7 @@ const Main = ({scrollnum}) => {
             <Project />
             <Share/>
             <FAQ />
-            <Contact />
+            <Contact scrollToTop={scrollToTop} />
             
         </div>
     );

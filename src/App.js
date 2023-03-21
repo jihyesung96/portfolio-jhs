@@ -49,7 +49,7 @@ function App() {
     <div className="App">
       <Headers scrollToTop={scrollToTop}/>
       <Routes>
-        <Route path='/' element={<Main scrollnum={scrollnum}/>}/>
+        <Route path='/' element={<Main scrollnum={scrollnum} scrollToTop={scrollToTop}/>}/>
       </Routes>
       <Footer />
     </div>

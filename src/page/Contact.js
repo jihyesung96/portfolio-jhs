@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Contact = () => {
+const Contact = ({scrollToTop}) => {
     return (
         <div id='Content'>
             <div id='Contentborder' className='contentdiv'>
@@ -15,7 +15,7 @@ const Contact = () => {
                         <a href="mailto:wlgptjd1009@naver.com"><div className='contacts-box topbox'>
                             <span>Contact me on E-mail💌</span><br/>
                         </div></a>
-                        <div className='contacts-box'>
+                        <div className='contacts-box' onClick={scrollToTop}>
                             <span>Thank you ! 🙋‍♂️</span>
                         </div>
                 </div>

@@ -8,7 +8,7 @@ const Share = () => {
             </div>
             <div>
                 <span id='Contenttitle2' className='Sharetitle'>📌나만의 백엔드 노트</span>
-                <h2 id='Contenttitle3' className='Sharelink'><a href='#'>Blog</a></h2>
+                <h2 id='Contenttitle3' className='Sharelink'><a href='https://blog.naver.com/wlgptjd1009'>Blog</a></h2>
                 <p id='Contenttitle4' className='Sharedesc'>📕 Php+Mysql 등 백엔드 내용정리</p>
                 <p id='Contenttitle4' className='Sharedesc'>📕 앞으로 대부분의 백엔드 관련 지식을 블로그에 올릴 예정</p>
             </div>
