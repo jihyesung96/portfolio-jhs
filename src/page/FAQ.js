@@ -66,8 +66,8 @@ const FAQ = ({FAQRef,AnswerRef}) => {
                                     :<span onClick={onChange2}><img src='/images/up.png'alt=''/></span>}
                                 </div>
                                 {!state2 ? <div class="faqanswer">💬 제가 개발자가 된 이유는 코드를 통해 다양한게 만들수 있어서 입니다. 저는 대학교 메카트로닉스공학과를 전공하면서 코드를 통해서 기능을 만들거거나 제어 할수 있는것을 배우게 되어서 이쪽에 흥미를 느꼈습니다.
-                                그후 프론트엔드 교육과정을 수업을 들으면서 다양한 언어를 통해 액션이 이루어지고 다양한 이벤트를 만들고 페이지가 이동하고 데이터를 관리 하는부분이 신기했습니다.
-                                프로젝트를 만들면서 재미있어 하는 나자신을 보고 개발자를 생업으로 삼기로 결정하였습니다.</div>: null}
+                                그 후 프론트 엔드 교육과정의 수업을 들으면서 다양한 언어를 통해, 상태관리 및 액션이 이루어지고, onClick 이벤트를 통해, 기능을 활성화되며 페이지가 이동하고 데이터를 관리 하는부분이 신기했습니다.
+                                프로젝트를 만들면서 재미있어 하는 나자신을<br/> 보고 개발자를 생업으로 삼기로 결정하였습니다.</div>: null}
                             </div>
                         </li>
                         <li>
@@ -78,7 +78,7 @@ const FAQ = ({FAQRef,AnswerRef}) => {
                                     <span ><img onClick={onChange3} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange3}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state3 ? <div class="faqanswer">💬 프론트 엔드 교육 과정을 수업들으면서 Html,Css,React(상태관리와 Hook함수,Redux),Javascript(기본문법와 내장객체,api),Typescript(기본문법)에 대해 이해를하고 Php,Mysql(데이터관리)를 통하여
+                                {!state3 ? <div class="faqanswer">💬 프론트 엔드 교육 과정을 수업들으면서 Html, Css, React(상태관리와 Hook함수, Redux), Javascript(기본문법와 내장객체, api), Typescript(기본문법)에 대해 이해를하고 Php, Mysql(데이터관리)를 통하여
                                 백엔드에도 관심을 가지게 되었습니다. 아직 저는 Javascript와 React를 다양한 라이브러리를 완벽하게 이해하지 못하고 있다고 생각합니다 그래서 저는 노션을 이용하여 배운것들을 정리하며 모르는것을 검색을 통하여 이해를하고 응용하여 하나의 프로젝트를 만들면서 활용을 합니다.
                                 </div>: null}
                             </div>
@@ -91,10 +91,10 @@ const FAQ = ({FAQRef,AnswerRef}) => {
                                     <span ><img onClick={onChange4} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange4}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state4 ? <div class="faqanswer">💬 최근에 React를 이용한 팀프로젝트를 하였습니다. 처음 사용하는 React라서 상태관리와 리렌더링에 대해서 생소하였기 때문에 어려움을 겪었습니다.
-                                처음에는 아는 지식을 동원하여 여러번 반복하여 상태관리와 리렌더링을 하였으나 React관련 도서와 React 공식 사이트에서 관련된 지식을 검색해보고 찾아보았더니 알지 못했던 라이브러리를
-                                알게되었습니다. 그로 인해 상태관리와 리렌더링을 간단한 방식으로 구현 되었고 짧은 기간안에 프로젝트를 완성 할수 있었습니다. 이사례를 들었던 이유는 코드는 다양한 방식으로 만들수 있기 때문에
-                                항상 배움의 자세를 유지하자 라는 자세를 얻었기 때문입니다.
+                                {!state4 ? <div class="faqanswer">💬 최근에 React를 이용한 팀프로젝트를 하였습니다. 처음 접하는 언어인 React라 상태관리와 리렌더링에 대해서 생소하였기 때문에 어려움을 겪었습니다.
+                                초반에는 알고 있던 배경지식을 동원하여, 여러번 반복해서 코드를 작성해보았으나, 상태관리와 리렌더링 코드 작성시에는 더 전문적인 지식을 학습하기 위해, React관련 도서와 React 공식 사이트에서 연관된 지식을 검색해보고,
+                                직접 활용하여 작성하였더니 알지 못했던 라이브러리까지 응요하게 되었습니다. 그로 인해 상태관리와 리렌더링을 간단한 방식으로 구현 되었고 짧은 기간안에 프로젝트를 완성 할수 있었습니다. 
+                                이사례를 들었던 이유는 코드는 다양한 방식으로 만들수 있기 때문에 항상 배움의 자세를 유지하자 라는 자세를 얻었기 때문입니다.
                                 </div>: null}
                             </div>
                         </li>

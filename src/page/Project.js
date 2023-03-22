@@ -99,7 +99,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state ? <div class="dtanswer">HTML5를 사용하여 실제 야구 전광판을 모티브로 만들어서 표현하고자 알맞은 태그들을 사용하여 화면을 구현을 하였습니다.</div>: null}
+                                {!state ? <div class="dtanswer">HTML5를 사용하여 실제 야구 전광판을 모티브로 만들어서 표현하고자 알맞은 태그들을 사용하여 화면을 구현하였습니다.</div>: null}
                             </div>
                         </li>
                         <li>
@@ -110,7 +110,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange1} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange1}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state1 ? <div class="dtanswer">CSS3을 사용하여 실제 야구장에서 관람하는 느낌을 주기위해 화면의 배경과 전광판의 색 등 화면을 구현을 하였습니다.<br/> 또한 애니메이션 기능을 사용하여
+                                {!state1 ? <div class="dtanswer">CSS3을 사용하여, 실제 야구장에서 관람하는 느낌을 내기 위해 화면의 배경 및 전광판을 LED색으로 표현하여 화면을 구현하였습니다.<br/> 또한 애니메이션 기능을 사용하여
                                 투수와 타자 , 타자들의 뛰는 모션까지 구현을 하였습니다.</div>: null}
                             </div>
                         </li>
@@ -122,7 +122,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange2} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange2}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state2 ? <div class="dtanswer">JAVASCRIPT를 사용하여 실제 야구 규칙을 실현하기 위해 조건문(if문)과, 반복문(for문)을 사용하여 Math.random을 활용하여 확률을 알고리즘을 코드를 작성하여 게임 진행 방식으로 구현하였습니다.</div>: null}
+                                {!state2 ? <div class="dtanswer">JAVASCRIPT를 사용하여 실제 야구 규칙을 실현하기 위해 조건문(if문)과, 반복문(for문)을 사용하였고, Math.random을 활용하여 확률을 알고리즘으로 코드를<br/>작성하여 게임 진행 방식을 구현하였습니다.</div>: null}
                             </div>
                         </li>
                     </ul>
@@ -137,7 +137,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                             <a href='http://wlgptjd1009.dothome.co.kr/AW/index.php' id='Contenttitle3' >PHP,MYSQL을 이용한 AW뮤직</a>
                         </h2>
                         <p id='Contenttitle4' className='projectday'>👍2022/12/19 ~ 2023/01/03</p>
-                        <p id='Contenttitle4' className='projectday'>👍php 와 mysql을 통해 페이지이동과 데이터관리를 배워게 된 프로젝트</p>
+                        <p id='Contenttitle4' className='projectday'>👍php 와 mysql을 통해 페이지 이동과 데이터 관리를 배우게 된 프로젝트</p>
                         <div id='btnspan'>
                             <a href='http://wlgptjd1009.dothome.co.kr/AW/index.php' id='alive'>VIEW LIVE</a>
                             <a href='https://github.com/jihyesung96/php_project_awmusic' id='alive'>VIEW GITHUB</a>
@@ -179,7 +179,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange5} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange5}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state5 ? <div class="dtanswer">PHP를 사용하여 메인 페이지, 검색페이지, 추천페이지, 최신음악리스트 페이지을 만들어서 페이지 이동을 구현 하였습니다</div>: null}
+                                {!state5 ? <div class="dtanswer">PHP를 사용하여 메인 페이지, 검색페이지, 추천페이지, 최신음악리스트 페이지을 만들어서 페이지 이동을 구현하였습니다</div>: null}
                             </div>
                         </li>
                         <li>
@@ -190,7 +190,8 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange6} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange6}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state6 ? <div class="dtanswer">MYSQL을 사용하여 데이터 베이스 user(아이디,비밀번호,비밀번호확인,이름,전화번호)와 album(제목,아티스트명,장르,발매일,앨범사진)를 구축하여 관리자 아이디로 로그인시 새로운 음악을 데이터 베이스에 추가할수 있도록 구현을 하였습니다.   </div>: null}
+                                {!state6 ? <div class="dtanswer">MYSQL을 사용하여 데이터 베이스 user(아이디,비밀번호,비밀번호확인,이름,전화번호)와 album(제목,아티스트명,장르,발매일,앨범사진)를 구축하여<br/> 
+                                관리자 아이디로 로그인시 새로운 음악을 데이터 베이스에 추가할수 있도록 구현하였습니다.   </div>: null}
                             </div>
                         </li>
                         <li>
@@ -201,8 +202,8 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange7} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange7}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state7 ? <div class="dtanswer">JAVASCRIPT를 사용하여 map과 filter를 사용하여 데이터를 리스트로 불러와서 필요로 하는 데이터를 화면에 나타나도록 코드를 사용하여 화면을 구현을 하였습니다.<br/>
-                                정규 표현식을 회원가입 페이지 아이디,비밀번호,비밀번호 확인 등에 사용을 하였습니다.</div>: null}
+                                {!state7 ? <div class="dtanswer">JAVASCRIPT의 구문인 map과 filter를 사용하여 데이터를 리스트로 불러온 후, 필요로 하는 데이터를 화면에 구현하도록 코드를 작성하였습니다.<br/>
+                                사이트 회원가입 시에, 아이디, 비밀번호, 비밀번호 확인하는 코드에는 정규표현식을 사용하였습니다.</div>: null}
                             </div>
                         </li>
                     </ul>
@@ -218,7 +219,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                             <a href='https://web-react-jhs2-nx562olf7x0c48.sel3.cloudtype.app/' id='Contenttitle3' >REACT를 이용한 AW카페</a>
                         </h2>
                         <p id='Contenttitle4' className='projectday'>👍2022/01/31 ~ 2023/02/14</p>
-                        <p id='Contenttitle4' className='projectday'>👍React를 사용하여 렌더링과 상태관리 컴포넌트 등 다양한 기능을 배우게 된 프로젝트</p>
+                        <p id='Contenttitle4' className='projectday'>👍React를 사용하여 렌더링과 상태관리 컴포넌트 등 다양한 기능을<br/> 배우게 된 프로젝트</p>
                         <div id='btnspan'>
                             <a href='https://web-react-jhs2-nx562olf7x0c48.sel3.cloudtype.app/' id='alive'>VIEW LIVE</a>
                             <a href='https://github.com/jihyesung96/react-jhs' id='alive'>VIEW GITHUB</a>                      
@@ -248,7 +249,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange9} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange9}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state9 ? <div class="dtanswer">CSS3을 사용하여 각 페이지에 해당하는데 데이터들을 구상하였던 디자인에 알맞게 위치를 변경, 효과등을 추가하여 하면을 구현하였습니다.</div>: null}
+                                {!state9 ? <div class="dtanswer">CSS3을 사용하여 각 페이지에 해당하는데 데이터들을 구상하였던 디자인에 알맞게 위치를 변경, 효과등을 추가하여 화면을 구현하였습니다.</div>: null}
                             </div>
                         </li>
                         <li>
@@ -259,7 +260,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange10} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange10}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state10 ? <div class="dtanswer">REACT를 사용하여 REACT HOOK을 사용하여 상태를 관리하여 사용자가 사용하는 상황에 따라 페이지가 리렌더링이 되도록 코드를 사용하여 화면을 구현하였습니다.<br/>
+                                {!state10 ? <div class="dtanswer">REACT 구문의 REACT HOOK을 사용하여 상태 관리를 통해, 사용자가 원하는 상황에 따라 페이지가 리렌더링 되도록 코드를 작성하여 화면을 구현하였습니다.<br/>
                                 React-Router를 사용하여 페이지를 렌더링 하였으며 React-State를 사용하여 상태를 관리하였습니다. 또한 Redux를 사용하여 비동기 작업을 하였습니다. </div>: null}
                             </div>
                         </li>
@@ -271,8 +272,8 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange11} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange11}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state11 ? <div class="dtanswer">MYSQL을 사용하여 데이터 베이스 AW(상품명,큰카테고리,카테고리,사진,가격,양,지방량,당량,카페인량,간략한설명) 와 member(아이디,비밀번호,비밀번호확인,이름,닉네임,생년월일,전화번호,이메일)을 구축하여 
-                                로그인과 상품등록을 할 수 있도록 구현을 하였습니다. </div>: null}
+                                {!state11 ? <div class="dtanswer">MYSQL을 사용하여 데이터 베이스 AW(상품명, 상품을 분류하는 큰 카테고리, 해당하는 작은 카테고리, 이미지, 가격, 양, 지방량, 당량, 카페인량, 간략한설명) 와 member(아이디, 비밀번호, 비밀번호확인, 이름, 닉네임, 생년월일, 전화번호, 이메일)을 구축하여 
+                                로그인과, 관리자의 아이디로 로그인 시 상품등록을 할 수 있도록 구현하였습니다. </div>: null}
                             </div>
                         </li>
                     </ul>
@@ -283,7 +284,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                 <span id='Contenttitle2' className='projectspan' ref={ProjetfourRef}>📌개인 프로젝트</span>
                 <div id='projectview'>
                     <div className='pdesc'>
-                        <h2 className='projectdesc'><a href='https://web-portfolio-jhs-nx562olfj2z1v1.sel3.cloudtype.app/' id='Contenttitle3' >나만의 포트톨리오 개발 (현재페이지)</a></h2>
+                        <h2 className='projectdesc'><a href='https://web-portfolio-jhs-nx562olfj2z1v1.sel3.cloudtype.app/' id='Contenttitle3' >나만의 포트폴리오 개발 (현재페이지)</a></h2>
                         <p id='Contenttitle4' className='projectday'>👍2023년 3월 - 계속 개발중</p>
                         <p id='Contenttitle4' className='projectday'>👍포트폴리오 제작하면서 React를 복습하게 된 프로젝트</p>
                         <div id='btnspan'>
@@ -328,7 +329,7 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                                     <span ><img onClick={onChange14} src='/images/down.png'alt=''/></span>
                                     :<span onClick={onChange14}><img src='/images/up.png'alt=''/></span>}
                                 </div>
-                                {!state14 ? <div class="dtanswer">REACT를 사용하여 REACT HOOK을 사용하여 상태를 관리하여 사용자가 사용하는 상황에 따라 페이지가 리렌더링이 되도록 코드를 사용하여 화면을 구현하였습니다.<br/>
+                                {!state14 ? <div class="dtanswer">REACT 구문의 REACT HOOK을 사용하여 상태 관리를 통해, 사용자가 원하는 상황에 따라 페이지가 리렌더링 되도록 코드를 작성하여 화면을 구현하였습니다.<br/>
                                 React-Router를 사용하여 페이지를 렌더링 하였으며 React-State를 사용하여 상태를 관리하였습니다. 또한 Redux를 사용하여 비동기 작업을 하였습니다. </div>: null}
                             </div>
                         </li>
