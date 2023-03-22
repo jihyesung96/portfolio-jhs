@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./page.css";
 
-const FAQ = () => {
+const FAQ = ({FAQRef,AnswerRef}) => {
     const [state,setState] =useState(true)
     const [state1,setState1] =useState(true)
     const [state2,setState2] =useState(true)
@@ -23,12 +23,12 @@ const FAQ = () => {
         setState4(!state4)
     }
     return (
-        <div id='FAQ'>
+        <div id='FAQ' ref={FAQRef}>
             <div id='Contentborder' >
                 <h1 id='Contenttitle'>FAQ<span id='h1span'>.</span></h1>
             </div>
-            <div id='FAQdiv'>
-                <div id='faqdiv'>
+            <div id='FAQdiv' ref={AnswerRef}>
+                <div id='faqdiv' >
                     <ul>
                         <li>
                             <div id='faqlist'>

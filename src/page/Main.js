@@ -7,16 +7,17 @@ import Project from './Project';
 import Share from './Share';
 import Title from './Title';
 
-const Main = ({scrollnum ,scrollToTop}) => {
+const Main = ({scrollnum ,scrollToTop,topRef,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef,ShareRef,ShareblogRef,SharenotinRef,SharegithobRef,FAQRef,AnswerRef,ContactRef}) => {
     return (
         <div>
-            <Title scrollnum={scrollnum}/>
+            <Title scrollnum={scrollnum} topRef={topRef} ShareRef={ShareRef} FAQRef={FAQRef} ContactRef={ContactRef} ProjetoneRef={ProjetoneRef} ProjettwoRef={ProjettwoRef} ProjetthreeRef={ProjetthreeRef} ProjetfourRef={ProjetfourRef}
+            ShareblogRef={ShareblogRef} SharenotinRef={SharenotinRef} SharegithobRef={SharegithobRef} AnswerRef={AnswerRef}/>
             <Introduction />
             <Aboutme />
-            <Project />
-            <Share/>
-            <FAQ />
-            <Contact scrollToTop={scrollToTop} />
+            <Project topRef={topRef} ProjetoneRef={ProjetoneRef} ProjettwoRef={ProjettwoRef} ProjetthreeRef={ProjetthreeRef} ProjetfourRef={ProjetfourRef}/>
+            <Share ShareRef={ShareRef} ShareblogRef={ShareblogRef} SharenotinRef={SharenotinRef} SharegithobRef={SharegithobRef}/>
+            <FAQ FAQRef={FAQRef} AnswerRef={AnswerRef}/>
+            <Contact scrollToTop={scrollToTop} ContactRef={ContactRef}/>
             
         </div>
     );

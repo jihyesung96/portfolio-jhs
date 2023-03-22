@@ -17,9 +17,13 @@
 #Title h1{
     cursor: pointer;
 }
+#Title h1:hover{
+    color: rgb(248, 205, 7);
+}
 #Titleulflex{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 #Titleulflex:hover{
     opacity: 0.7;

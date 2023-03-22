@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Contact = ({scrollToTop}) => {
+const Contact = ({scrollToTop,ContactRef}) => {
     return (
-        <div id='Content'>
+        <div id='Content' ref={ContactRef}>
             <div id='Contentborder' className='contentdiv'>
                 <h1 id='Contenttitle'>Contact<span id='h1span'>.</span></h1>
             </div>

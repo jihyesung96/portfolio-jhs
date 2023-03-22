@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, {  useState } from 'react';
 import "./page.css";
 import "./Detailstyle.css";
 
-const Project = () => {
+const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef}) => {
     const [state,setState] =useState(true)
     const [state1,setState1] =useState(true)
     const [state2,setState2] =useState(true)
@@ -63,13 +63,16 @@ const Project = () => {
     const onChange14 = () => {
         setState14(!state14)
     }
+    
+    
+  
     return (
-        <div id='Project'>
+        <div id='Project' ref={topRef}>
             <div id='Contentborder'>
                 <h1 id='Contenttitle'>Project<span id='h1span'>.</span></h1>
             </div>
-            <div>
-                <span id='Contenttitle2' className='projectspan'>📌팀 프로젝트</span>
+            <div id="Project1">
+                <span id='Contenttitle2' className='projectspan' ref={ProjetoneRef}>📌팀 프로젝트</span>
                 <div id='projectview'>
                     <img className='projectimg' src='/images/javascript_ball.png'alt=''/>
                     <div className='pdesc'>
@@ -126,8 +129,8 @@ const Project = () => {
                 </div>
             </div>  
             </div>
-            <div>
-                <span id='Contenttitle2' className='projectspan'>📌팀 프로젝트</span>
+            <div id="Project2">
+                <span id='Contenttitle2' className='projectspan'ref={ProjettwoRef}>📌팀 프로젝트</span>
                 <div id='projectview'>
                     <div className='pdesc'>
                         <h2 className='projectdesc'>
@@ -206,8 +209,8 @@ const Project = () => {
                 </div>
             </div>
             </div>
-            <div>
-                <span id='Contenttitle2' className='projectspan'>📌팀 프로젝트</span>
+            <div id="Project3">
+                <span id='Contenttitle2' className='projectspan' ref={ProjetthreeRef}>📌팀 프로젝트</span>
                 <div id='projectview'>
                     <img className='projectimg' src='/images/react_site.png'alt=''/>
                     <div className='pdesc'>
@@ -276,8 +279,8 @@ const Project = () => {
                 </div>
             </div>
             </div>
-            <div>
-                <span id='Contenttitle2' className='projectspan'>📌개인 프로젝트</span>
+            <div id="Project4">
+                <span id='Contenttitle2' className='projectspan' ref={ProjetfourRef}>📌개인 프로젝트</span>
                 <div id='projectview'>
                     <div className='pdesc'>
                         <h2 className='projectdesc'><a href='#' id='Contenttitle3' >나만의 포트톨리오 개발 (현재페이지)</a></h2>
