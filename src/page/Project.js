@@ -283,11 +283,11 @@ const Project = ({topRef ,ProjetoneRef,ProjettwoRef,ProjetthreeRef,ProjetfourRef
                 <span id='Contenttitle2' className='projectspan' ref={ProjetfourRef}>📌개인 프로젝트</span>
                 <div id='projectview'>
                     <div className='pdesc'>
-                        <h2 className='projectdesc'><a href='#' id='Contenttitle3' >나만의 포트톨리오 개발 (현재페이지)</a></h2>
+                        <h2 className='projectdesc'><a href='https://web-portfolio-jhs-nx562olfj2z1v1.sel3.cloudtype.app/' id='Contenttitle3' >나만의 포트톨리오 개발 (현재페이지)</a></h2>
                         <p id='Contenttitle4' className='projectday'>👍2023년 3월 - 계속 개발중</p>
                         <p id='Contenttitle4' className='projectday'>👍포트폴리오 제작하면서 React를 복습하게 된 프로젝트</p>
                         <div id='btnspan'>
-                            <a href='#' id='alive'>VIEW LIVE</a>
+                            <a href='https://web-portfolio-jhs-nx562olfj2z1v1.sel3.cloudtype.app/' id='alive'>VIEW LIVE</a>
                             <a href='https://github.com/jihyesung96/portfolio-jhs' id='alive'>VIEW GITHUB</a>
                         </div>
                     </div>
