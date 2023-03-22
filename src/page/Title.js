@@ -153,7 +153,7 @@ const Title = ({scrollnum,topRef,ShareRef,FAQRef,ContactRef,ProjetoneRef,Projett
                 <h1 onClick={CONTACT} style={scrollnum===18 ? { scale:'1.1' }: { scale:'1' } }>CONTACT</h1>
             </div>
             <a id='titlea' href="mailto:wlgptjd1009@naver.com">wlgptjd1009@naver.com</a>
-            <p id='titlep'>Last update: 2023/03/14</p>
+            <p id='titlep'>Last update: 2023/03/22</p>
         </div>
     );
 };
