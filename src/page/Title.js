@@ -138,7 +138,6 @@ const Title = ({scrollnum,topRef,ShareRef,FAQRef,ContactRef,ProjetoneRef,Projett
             <div>
                 <h1 onClick={Share} style={scrollnum===12 ? { scale:'1.1' }: { scale:'1' } }>Share</h1>
                 <ul>
-                    <li onClick={Share1}  id='Titleulflex' style={scrollnum===13 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===13 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Blog</li>
                     <li onClick={Share2}  id='Titleulflex' style={scrollnum===14 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===14 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Notion</li>
                     <li onClick={Share3}  id='Titleulflex' style={scrollnum===15 ? { color:'rgb(248, 205, 7)' }: { color:'inherit' } }><div style={scrollnum===15 ? { backgroundColor:'rgb(248, 205, 7)' }: { backgroundColor:'rgb(110, 110, 110)' }} class="Circle"></div>Github</li>
                 </ul>

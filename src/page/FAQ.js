@@ -32,11 +32,11 @@ const FAQ = ({FAQRef,AnswerRef}) => {
                     <ul>
                         <li>
                             <div id='faqlist'>
-                                <div id='FAQflex'>
+                                <div id='FAQflex' onClick={onChange}>
                                     <p class="title faqp">📝 자신에 대해 자유롭게 표현해 주세요</p>
                                     {state ? 
-                                    <span ><img onClick={onChange} src='/images/down.png'alt=''/></span>
-                                    :<span onClick={onChange}><img src='/images/up.png'alt=''/></span>}
+                                    <span><img src='/images/down.png'alt=''/></span>
+                                    :<span><img src='/images/up.png'alt=''/></span>}
                                 </div>
                                 {!state ? <div class="faqanswer">💬 안녕하세요! 풀스택을 희망하는 지혜성입니다. 저는 개발에 대한 가장 크게 느낀 매력이 새로운 언어와 알고리즘에 대한 배움을 꾸준히 지속적으로 해야하는 점이라고 생각합니다.
                                 이러한 자세를 저의 습관으로 하여 현재의 포토폴리오를 완성하였습니다. 프론트 엔드로서 발전할 수있는 역량으로는, 헤딩하는 자세를 가지고 코드 작성에 두려움이 없으며, 코드에 대한 빠른 이해력을 습득하고 있습니다. 기능적으로 안되는 일이 있더라도
@@ -45,11 +45,11 @@ const FAQ = ({FAQRef,AnswerRef}) => {
                         </li>
                         <li>
                             <div>
-                                <div id='FAQflex'>
-                                    <p class="title faqp">📝 전공에서 개발자로 전향된 사유가 어떻게 되나요?</p>
+                                <div id='FAQflex' onClick={onChange1}>
+                                    <p class="title faqp" >📝 전공에서 개발자로 전향된 사유가 어떻게 되나요?</p>
                                     {state1 ? 
-                                    <span ><img onClick={onChange1} src='/images/down.png'alt=''/></span>
-                                    :<span onClick={onChange1}><img src='/images/up.png'alt=''/></span>}
+                                    <span><img src='/images/down.png'alt=''/></span>
+                                    :<span><img src='/images/up.png'alt=''/></span>}
                                 </div>
                                 {!state1 ? <div class="faqanswer">💬 저는 원래 기계나 전자쪽에 흥미를 느껴, 대학교 전공을 로봇과 관련하여 진학을 하게 되었습니다. 전공은 메카트로닉스공학과으로 전자, 컴퓨터 등 공학지식을 융합하여 학습하였으며,
                                         C프로그래밍 언어를 작성하여 해당 코드로 기계를 작동시키는 과정 속에서 코드를 작성하는 것에 대한 흥미를 느끼게 되었습니다. 
@@ -59,11 +59,11 @@ const FAQ = ({FAQRef,AnswerRef}) => {
                         </li>
                         <li>
                             <div>
-                                <div id='FAQflex'>
+                                <div id='FAQflex' onClick={onChange2}>
                                     <p class="title faqp">📝 프로그래밍을 시작한 경위와 본격적으로 투신하고 생업으로 삼기로 결정한 이야기를 해주세요.</p>
                                     {state2 ? 
-                                    <span ><img onClick={onChange2} src='/images/down.png'alt=''/></span>
-                                    :<span onClick={onChange2}><img src='/images/up.png'alt=''/></span>}
+                                    <span ><img src='/images/down.png'alt=''/></span>
+                                    :<span><img src='/images/up.png'alt=''/></span>}
                                 </div>
                                 {!state2 ? <div class="faqanswer">💬 제가 개발자가 된 이유는 코드를 통해 다양한게 만들수 있어서 입니다. 저는 대학교 메카트로닉스공학과를 전공하면서 코드를 통해서 기능을 만들거거나 제어 할수 있는것을 배우게 되어서 이쪽에 흥미를 느꼈습니다.
                                 그 후 프론트 엔드 교육과정의 수업을 들으면서 다양한 언어를 통해, 상태관리 및 액션이 이루어지고, onClick 이벤트를 통해, 기능을 활성화되며 페이지가 이동하고 데이터를 관리 하는부분이 신기했습니다.
@@ -72,11 +72,11 @@ const FAQ = ({FAQRef,AnswerRef}) => {
                         </li>
                         <li>
                             <div>
-                                <div id='FAQflex'>
+                                <div id='FAQflex' onClick={onChange3} >
                                     <p class="title faqp">📝 기술 경향을 파악하고 업무 역량을 강화하기 위한 본인의 학습 방법을 구체적으로 설명해주세요.</p>
                                     {state3 ? 
-                                    <span ><img onClick={onChange3} src='/images/down.png'alt=''/></span>
-                                    :<span onClick={onChange3}><img src='/images/up.png'alt=''/></span>}
+                                    <span><img src='/images/down.png'alt=''/></span>
+                                    :<span><img src='/images/up.png'alt=''/></span>}
                                 </div>
                                 {!state3 ? <div class="faqanswer">💬 프론트 엔드 교육 과정을 수업들으면서 Html, Css, React(상태관리와 Hook함수, Redux), Javascript(기본문법와 내장객체, api), Typescript(기본문법)에 대해 이해를하고 Php, Mysql(데이터관리)를 통하여
                                 백엔드에도 관심을 가지게 되었습니다. 아직 저는 Javascript와 React를 다양한 라이브러리를 완벽하게 이해하지 못하고 있다고 생각합니다 그래서 저는 노션을 이용하여 배운것들을 정리하며 모르는것을 검색을 통하여 이해를하고 응용하여 하나의 프로젝트를 만들면서 활용을 합니다.
@@ -85,11 +85,11 @@ const FAQ = ({FAQRef,AnswerRef}) => {
                         </li>
                         <li>
                             <div>
-                                <div id='FAQflex'>
+                                <div id='FAQflex' onClick={onChange4}>
                                     <p class="title faqp">📝 본인이 성공적으로 수행한 프로젝트의 성공요인이 무엇인지, 어려움을 극복하기 위해 어떤 방법을 사용했는지 기술하시오.</p>
                                     {state4 ? 
-                                    <span ><img onClick={onChange4} src='/images/down.png'alt=''/></span>
-                                    :<span onClick={onChange4}><img src='/images/up.png'alt=''/></span>}
+                                    <span ><img src='/images/down.png'alt=''/></span>
+                                    :<span><img src='/images/up.png'alt=''/></span>}
                                 </div>
                                 {!state4 ? <div class="faqanswer">💬 최근에 React를 이용한 팀프로젝트를 하였습니다. 처음 접하는 언어인 React라 상태관리와 리렌더링에 대해서 생소하였기 때문에 어려움을 겪었습니다.
                                 초반에는 알고 있던 배경지식을 동원하여, 여러번 반복해서 코드를 작성해보았으나, 상태관리와 리렌더링 코드 작성시에는 더 전문적인 지식을 학습하기 위해, React관련 도서와 React 공식 사이트에서 연관된 지식을 검색해보고,

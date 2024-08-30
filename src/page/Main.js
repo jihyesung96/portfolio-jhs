@@ -18,7 +18,6 @@ const Main = ({scrollnum ,scrollToTop,topRef,ProjetoneRef,ProjettwoRef,Projetthr
             <Share ShareRef={ShareRef} ShareblogRef={ShareblogRef} SharenotinRef={SharenotinRef} SharegithobRef={SharegithobRef}/>
             <FAQ FAQRef={FAQRef} AnswerRef={AnswerRef}/>
             <Contact scrollToTop={scrollToTop} ContactRef={ContactRef}/>
-            
         </div>
     );
 };

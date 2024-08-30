@@ -14,11 +14,17 @@ const Aboutme = () => {
                 <h2 id='Contenttitle3'>경성대학교</h2>
                 <p id='Contenttitle4'>👍2015년 - 2023년 메카트로닉스공학과 학사 졸업</p>
             </div>
-            <div  id='school'>
+            <div id='school'>
                 <span id='Contenttitle2'>📌교육</span>    
                 <h2 id='Contenttitle3'>그린컴퓨터아카데미</h2>
                 <p id='Contenttitle4'>👍2022/10/4 ~ 2023/03/23</p>
                 <p>👍UI개발, 프론트엔드 개발 실무, 전반적인 백엔드 기초</p>
+            </div>
+            <div>
+                <span id='Contenttitle2'>📌직장</span>    
+                <h2 id='Contenttitle3'>아이티공간</h2>
+                <p id='Contenttitle4'>👍2023/09/1 ~ 현재</p>
+                <p>솔루션 프론트엔드 개발</p>
             </div>
             <div>
                 <h2 id='Contenttitle2' className='myskill'>📌 MY Skill<span id='skillmouse'>👇마우스를 올려보세요!</span></h2>
@@ -71,7 +77,7 @@ const Aboutme = () => {
                     <li class="skillli skillgit">
                         <div class="skilldiv"><img src='/images/git.jpg'alt=''/><p>GIT</p></div>
                         <div class="status-GIT"></div>
-                        <span class="status-Git">GIT을 이용하여 프로젝트를 업로드, 수정, 다운을 받을 수<br/> 있습니다.</span>
+                        <span class="status-Git">GIT을 이용하여 프로젝트를 관리 및 협업을 할 수 있습니다.</span>
                     </li>
                 </ul>
             </div>
