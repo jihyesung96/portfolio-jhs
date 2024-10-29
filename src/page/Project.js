@@ -245,7 +245,7 @@ const Project = ({ topRef, ProjetoneRef, ProjettwoRef, ProjetthreeRef, Projetfou
         <div id="projectview">
           <div className="pdesc">
             <h2 className="projectdesc">
-              <a href="https://web-portfolio-jhs-nx562olfj2z1v1.sel3.cloudtype.app/" id="Contenttitle3">
+              <a href="https://portfolio-jhs.vercel.app/" id="Contenttitle3">
                 나만의 포트폴리오 개발 (현재페이지)
               </a>
             </h2>
@@ -256,7 +256,7 @@ const Project = ({ topRef, ProjetoneRef, ProjettwoRef, ProjetthreeRef, Projetfou
               👍포트폴리오 제작하면서 React를 복습하게 된 프로젝트
             </p>
             <div id="btnspan">
-              <a href="https://web-portfolio-jhs-nx562olfj2z1v1.sel3.cloudtype.app/" id="alive">
+              <a href="https://portfolio-jhs.vercel.app/" id="alive">
                 VIEW LIVE
               </a>
               <a href="https://github.com/jihyesung96/portfolio-jhs" id="alive">
